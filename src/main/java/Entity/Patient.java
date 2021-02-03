@@ -23,9 +23,7 @@ public class Patient {
  private int photo;
  private int phone;
  
- public Patient() {
-		super();
- }
+
 
 public Patient(int id, String name, String email, String address, int photo, int phone) {
 	super();
