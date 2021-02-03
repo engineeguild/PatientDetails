@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import Entity.Patient;
+import Service.PatientService;
 
 
 @RestController
