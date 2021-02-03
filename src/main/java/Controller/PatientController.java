@@ -17,25 +17,6 @@ import Entity.Patient;
 
 @RestController
 public class PatientController {
-
-	
-	
-
-	    @GetMapping("/patients")
-	    List<Patient> getPatients() {
-	        return Arrays.asList(
-	                new Patient(1, "john","h","vh",9,8)
-	             
-	        );
-	    }
-
-	   
-	}
-
-
-
-/*
-public class PatientController {
 	
 	@Autowired
 	
@@ -75,4 +56,3 @@ public class PatientController {
 	
 
 }
-*/
