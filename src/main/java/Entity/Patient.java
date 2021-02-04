@@ -20,12 +20,12 @@ public class Patient {
  private String name;
  private String email;
  private String address;
- private int photo;
+ private byte[] photo;
  private int phone;
  
 
 
-public Patient(int id, String name, String email, String address, int photo, int phone) {
+public Patient(int id, String name, String email, String address, byte[] photo, int phone) {
 	super();
 	this.id = id;
 	this.name = name;
@@ -64,10 +64,10 @@ public String getAddress() {
 public void setAddress(String address) {
 	this.address = address;
 }
-public int getPhoto() {
+public byte[] getPhoto() {
 	return photo;
 }
-public void setPhoto(int photo) {
+public void setPhoto(byte[] photo) {
 	this.photo = photo;
 }
  
