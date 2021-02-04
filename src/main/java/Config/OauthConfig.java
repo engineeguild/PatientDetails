@@ -29,8 +29,8 @@ public class OauthConfig {
 	    @Autowired
 	    public void globalUserDetails(AuthenticationManagerBuilder auth) throws Exception {
 	        auth.inMemoryAuthentication()
-	        .withUser("p1").password("abc123").roles("ADMIN").and()
-	        .withUser("p2").password("abc123").roles("USER");
+	        .withUser("p1").password("123").roles("ADMIN").and()
+	        .withUser("p2").password("123").roles("USER");
 	    }
 	 
 	    @Override

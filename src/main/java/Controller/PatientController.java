@@ -33,6 +33,11 @@ public class PatientController {
 	{  
 	return patientservice.getPatientById(id);  
 	}  
+	@GetMapping("/patient/{nane}")  
+	private Patient getPatientByName(@PathVariable String name)   
+	{  
+	return patientservice.getPatientByName(name);  
+	}  
 	
 	@DeleteMapping("/patient/{id}")  
 	private void deleteBook(@PathVariable int id)   
@@ -50,7 +55,9 @@ public class PatientController {
 	@PutMapping("/patient")  
 	private Patient update(@RequestBody Patient patient)   
 	{  
-	patientservice.update(patient);  
+	  
+		patientservice.update(patient);  
+	
 	return patient;  
 	}  
 	

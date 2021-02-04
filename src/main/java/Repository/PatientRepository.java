@@ -6,7 +6,7 @@ import Entity.Patient;
 
 public interface PatientRepository extends JpaRepository<Patient, Integer> {
 
-//	Patient findByName(String name);
+	Patient findByName(String name);
 
 	
 	

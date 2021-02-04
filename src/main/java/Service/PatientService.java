@@ -44,5 +44,10 @@ public class PatientService {
 	public void modify(Patient patient,int id) {
 		patientrepository.save(patient);
 	}
+	public Patient getPatientByName(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
 
 }
